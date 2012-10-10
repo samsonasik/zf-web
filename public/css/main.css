@@ -149,11 +149,28 @@ h1, h2, h3, h4, h5, h6{
     z-index: 999999;
 }
 
+a#githubposition{
+   position: relative;
+   width: 100%;
+   z-index: 9999;
+}
+
+a#githubposition img{
+   position: relative;
+   right: 0;
+   border: 0 none;
+   float: right;
+}
+
 #head-bottom {
 	margin: 0 auto;
 	background: url("../images/head-bottom.png") no-repeat top center;
 	height: 417px;	
 	text-align:center;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	z-index: 999;
 }
 
 #head-bottom img {
@@ -266,6 +283,7 @@ h1, h2, h3, h4, h5, h6{
     position: relative;
     top: -50px;
     width: 428px;
+    z-index: 9999;
 }
 
 #big-download:hover{
